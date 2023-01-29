@@ -1,0 +1,7 @@
+{
+  "configFile": "stripes.config.js.local",
+  "port": 3008,
+  "aliases": {
+    "@folio/stripes-smart-components-jt": "./node_modules/@folio/stripes-smart-components-jt"
+  }
+}
