@@ -13,7 +13,7 @@ class InternetBorrow extends React.Component {
     const { okapi } = this.props.stripes
     const { token } = okapi
 
-    const site = 'https://https://yuyue.library.sh.cn:8443/'
+    const site = 'https://yuyue.library.sh.cn:8443/'
     const src = `${site}?from=folio&token=${token}`
     
     return (
