@@ -19,7 +19,7 @@ class InternetBorrow extends React.Component {
     return (
       <Paneset>
         <iframe
-          id="internet-borrow-frame"
+          id="reservation-frame"
           title="iframe"
           src={src}
           style={{ border: 0 }}

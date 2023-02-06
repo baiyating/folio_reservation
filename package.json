@@ -1,7 +1,7 @@
 {
   "name": "@folio/reservation",
   "version": "1.0.0",
-  "description": "Description for internet-borrow",
+  "description": "Description for reservation",
   "main": "src/index.js",
   "publishConfig": {
      "registry": "http://we-win.3322.org:18056/nexus/repository/wewin-npm/"
@@ -61,22 +61,22 @@
       {
         "name": "app",
         "alt": "app",
-        "title": "internet-borrow"
+        "title": "reservation"
       }
     ],
-    "displayName": "ui-internet-borrow.meta.title",
-    "route": "/internet-borrow",
+    "displayName": "ui-reservation.meta.title",
+    "route": "/reservation",
     "hasSettings": false,
     "okapiInterfaces": {},
     "permissionSets": [
       {
-        "permissionName": "module.internet-borrow.enabled",
-        "displayName": "UI: internet-borrow module is enabled",
+        "permissionName": "module.reservation.enabled",
+        "displayName": "UI: reservation module is enabled",
         "visible": true
       },
       {
-        "permissionName": "settings.internet-borrow.enabled",
-        "displayName": "Settings (internet-borrow): display list of settings pages",
+        "permissionName": "settings.reservation.enabled",
+        "displayName": "Settings (reservation): display list of settings pages",
         "subPermissions": [
           "settings.enabled"
         ],

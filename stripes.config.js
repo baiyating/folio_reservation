@@ -14,6 +14,6 @@ module.exports = {
   modules: {
     '@folio/stripes-smart-components-jt': {},
     '@folio/stripes-components': {},
-    '@folio/internet-borrow': {},
+    '@folio/reservation': {},
   },
 };
